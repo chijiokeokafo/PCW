@@ -13,7 +13,7 @@
    Base Styles, Bootstrap Modifications & Fonts Import
    ========================================================================== */
 
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
 
 
 ::-moz-selection {
@@ -59,7 +59,7 @@
 
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: 400;
     font-size: 16px;
 
@@ -69,7 +69,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
-    color: cornflowerblue;
+    color: black;
 }
 
 
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default .navbar-brand {
-	color: cornflowerblue;
+	color: black;
 }
 
 .navbar-default {
@@ -87,13 +87,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: cornflowerblue;
+	color: black;
 	background-color: transparent;
-	border-bottom: 2px solid cornflowerblue;
+	border-bottom: 2px solid black;
+
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: cornflowerblue;
+	color: black;
+	text-shadow: 1px 1px white;
 }
 
 /* ==========================================================================
@@ -105,6 +107,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
+	text-shadow: 1px 1px white;
 	background-attachment: relative;
 	background-position: center center;
 	min-height: 650px;
@@ -122,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #headerwrap h1 {
-	color: cornflowerblue;
+	color: black;
 	padding-top: 10px;
 	padding-bottom: 20px;
 	letter-spacing: 4px;
@@ -132,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #headerwrap h4 {
 	font-weight: 400;
-	color: cornflowerblue;
+	color: black;
 }
 
 #social {
