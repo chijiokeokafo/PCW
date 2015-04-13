@@ -105,7 +105,7 @@ h1, h2, h3, h4, h5, h6 {
 #headerwrap {
 	background: url(../img/back.jpg) no-repeat center top;
 	margin-top: -70px;
-	padding-top: 250px;
+	padding-top: 170px;
 	text-align:center;
 	text-shadow: 1px 1px white;
 	background-attachment: relative;
@@ -224,6 +224,27 @@ h1, h2, h3, h4, h5, h6 {
 
 #orderwrap {	
 	background: url(../img/order.jpg) no-repeat center top;
+	margin-top: -70px;
+	padding-top: 250px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 550px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#feature1wrap {	
+	background: url(../img/005.jpg) no-repeat center top;
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
