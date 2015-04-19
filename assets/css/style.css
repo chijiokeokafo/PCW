@@ -98,6 +98,13 @@ h1, h2, h3, h4, h5, h6 {
 	text-shadow: 1px 1px white;
 }
 
+@media (max-width: 767px) {
+    .navbar-nav > li > a {
+    height: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;}
+}
+
 /* ==========================================================================
    Wrap Sections
    ========================================================================== */
@@ -305,8 +312,6 @@ h1, h2, h3, h4, h5, h6 {
     -o-background-size: cover;
     background-size: cover;
 }
-
-
 
 
 /* Gallery */
